@@ -1,0 +1,17 @@
+{
+  "name": "playwright-mcp-pwa",
+  "version": "1.0.0",
+  "scripts": {
+    "e2e:test": "playwright test",
+    "e2e:report": "playwright show-report",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "vitepress": "^1.0.0",
+    "vite-plugin-pwa": "^0.17.0",
+    "typescript": "^5.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
